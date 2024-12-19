@@ -18,14 +18,10 @@
     "p:ish": "pnpm install --shamefully-hoist",
     "p:up": "pnpm up"
   },
-  "dependencies": {
-    "@iconify-json/icon-park-outline": "^1.2.2",
-    "vue-i18n": "^9.2.2"
-  },
   "devDependencies": {
     "@antfu/eslint-config": "^0.7.0",
     "@iconify/tailwind": "^1.2.0",
-    "@intlify/vite-plugin-vue-i18n": "^3.4.0",
+    "@iconify-json/icon-park-outline": "^1.2.2",
     "@rushstack/eslint-patch": "^1.2.0",
     "@types/chrome": "^0.0.225",
     "@types/fs-extra": "^9.0.12",
