@@ -7,11 +7,9 @@
 - ⚡️ **即时热更新** - 在开发中使用 **Vite**（无需刷新！）
 - 🥝 Vue 3 - 组合 API，[`<script setup>` 语法](https://github.com/vuejs/rfcs/blob/master/active-rfcs/0040-script-setup.md) 等等！
 - 💬 轻松通信 - 由 [`webext-bridge`](https://github.com/antfu/webext-bridge) 和 [VueUse](https://github.com/antfu/vueuse) 存储提供支持
-- 🍃 [Windi CSS](https://windicss.org/) - 按需 CSS 工具
+- 🍃 [TailWindCSS](https://tailwindcss.com/) - 原子化 CSS 框架
 - 🦾 [TypeScript](https://www.typescriptlang.org/) - 类型安全
-- 📦 [组件自动导入](./src/components)
-- 🌟 [图标](./src/components) - 直接访问任何图标集中的图标
-- 🌍 [国际化准备](src/locales)
+- 🌟 [图标](https://icon-sets.iconify.design/icon-park-outline/) - 使用 IconPark Outline 图标集
 - 🌛 黑暗模式 - 支持切换黑暗模式
 - 📃 动态 `manifest.json`，具有完整的类型支持
 
@@ -22,12 +20,6 @@
 - [`webextension-polyfill-ts`](https://github.com/Lusito/webextension-polyfill-ts) - 带类型的 WebExtension 浏览器 API Polyfill
 - [`webext-bridge`](https://github.com/antfu/webext-bridge) - 轻松实现上下文之间的通信
 
-### Vite 插件
-
-- [`vite-plugin-components`](https://github.com/antfu/vite-plugin-components) - 组件自动导入
-- [`vite-plugin-windicss`](https://github.com/antfu/vite-plugin-windicss) - WindiCSS 支持
-- [`@intlify/vite-plugin-vue-i18n`](https://github.com/intlify/bundle-tools/blob/main/packages/vite-plugin-vue-i18n/README.md) - 国际化支持
-
 ### Vue 插件
 
 - [`vue-global-api`](https://github.com/antfu/vue-global-api) - 全局使用 Vue 组合 API
@@ -35,12 +27,11 @@
 
 ### UI 框架
 
-- [Windi CSS](https://github.com/windicss/windicss) - 下一代实用优先 CSS 框架
+- [TailWindCSS](https://tailwindcss.com/) - 原子化 CSS 框架
 
 ### 图标
 
-- [Iconify](https://iconify.design) - 从任何图标集中使用图标 [🔍Icônes](https://icones.netlify.app/)
-- [`vite-plugin-icons`](https://github.com/antfu/vite-plugin-icons) - 作为 Vue 组件的图标
+- [Iconify](https://iconify.design) - 使用 [IconPark Outline](https://icon-sets.iconify.design/icon-park-outline/) 图标集中的图标 
 
 ### 编码风格
 
@@ -59,6 +50,6 @@
 
 ### 克隆到本地
 
-如果您更喜欢手动操作以保持更干净的 git 历史
+如果您喜欢手动操作以保持更干净的 git 历史
 
 > 如果您没有安装 pnpm，请运行：npm install -g pnpm
